@@ -7,27 +7,22 @@ class BasePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("base des familles de langues"),
+        title: Text("les grandes familles de langues"),
       ),
       body: Center(
         child: ListView(
           children: [
-            Text("afro-asiatiques"),
-            Text("austroasiatiques"),
-            Text("austronésiennes"),
-            Text("dravidiennes"),
-            Text("eskimo-aléoutes"),
-            Text("hmong-mien"),
-            Text("indo-européennes"),
-            Text("japoniques"),
-            Text("mongoles"),
-            Text("nilo-sahariennes"),
-            Text("nigéro-congolaises"),
-            Text("ouraliennes"),
-            Text("sino-tibétaines"),
-            Text("tai-kadai"),
-            Text("tongouses"),
-            Text("turques"),
+            Text("indo-européenne"),
+            Text("sino-tibétaine"),
+            Text("nigéro-congolaise"),
+            Text("afro-asiatique (chamito-sémitique)"),
+            Text("austronésienne"),
+            Text("bantoue"),
+            Text("dravidienne"),
+            Text("altaïque"),
+            Text("japonique (japonaise)"),
+            Text("austro-asiatique"),
+            Text("autres langues"),
           ],
         )
       ),

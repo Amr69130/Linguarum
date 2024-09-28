@@ -32,16 +32,14 @@ class _MapMondeState extends State<MapMonde> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage('assets/images/mapmonde.png'), // Votre image
-            fit: BoxFit.cover, // L'image couvre tout l'écran
-          ),
-        ),
-        child: Center(
-          child: Placeholder(), // Vous pouvez remplacer ce Placeholder
-        ),
+      body: InteractiveViewer(
+        panEnabled: true, // Permet de déplacer l'image
+        minScale: 0.5, // Échelle minimale
+        maxScale: 4.0, // Échelle maximale
+        child: Image.asset(
+        'assets/images/familles-lng-map-monde.png',
+        fit: BoxFit.contain, // Assure que l'image soit bien contenue
+      ),
       ),
     );
   }

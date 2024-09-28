@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset("assets/images/earth2.jpg"),
+                Image.asset("assets/images/arbre.jpg"),
                 const Text(
                   "LINGUARUM",
                   style: TextStyle(
