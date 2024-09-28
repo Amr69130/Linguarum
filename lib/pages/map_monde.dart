@@ -55,7 +55,7 @@ class _MapMondeState extends State<MapMonde> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Informations sur la carte',
+                    'Informations et remerciements',
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
